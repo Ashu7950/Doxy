@@ -23,9 +23,9 @@ jobs:
       run: |
         # Use $GITHUB_TOKEN for whatever actions you need it for
         echo "The GitHub token is $GITHUB_TOKEN"
-        
+
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./documentation
+        publish_dir: ./documentation/html
