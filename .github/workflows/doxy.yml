@@ -17,13 +17,7 @@ jobs:
       with:
         doxyfile-path: "./Doxyfile" 
         working-directory: "." 
-    - name: Use the GitHub token
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: |
-        # Use $GITHUB_TOKEN for whatever actions you need it for
-        echo "The GitHub token is $GITHUB_TOKEN"
-
+   
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
