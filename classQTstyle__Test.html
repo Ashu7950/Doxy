@@ -347,14 +347,5 @@ Public Attributes</h2></td></tr>
 </ul>
 </div><!-- contents -->
 <footer>
-    <script>
-        fetch("https://api.github.com/repos/your_username/your_repository/commits/main")
-            .then(response => response.json())
-            .then(data => {
-                const commitHash = data.sha.substring(0, 7);
-                const commitMessage = data.commit.message;
-                document.write(`Latest Commit: ${commitHash} - ${commitMessage}`);
-            })
-            .catch(error => console.error('Error fetching latest commit:', error));
-    </script>
+    Latest Commit: 69727b5
 </footer>
