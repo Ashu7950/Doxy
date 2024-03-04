@@ -1,4 +1,14 @@
-
-  <footer style="background-color: #f4f4f4; padding: 10px; text-align: left;"> 
-    Commit Hash: @COMMIT_HASH@
-  </footer>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+    <ul>
+      $navpath
+      <li class="footer">$generatedby <a href="https://www.doxygen.org/index.html"><img class="footer" src="$relpath^doxygen.svg" width="104" height="31" alt="doxygen"/></a> $doxygenversion </li>
+    </ul>
+  </div>
+  <!--END GENERATE_TREEVIEW-->
+  <!--BEGIN !GENERATE_TREEVIEW-->
+  <hr class="footer"/><address class="footer"><small>
+  <a href="https://github.com/Apra-Labs/ApraPipes/commits/main/">Source Commit: @COMMIT_HASH@</a>
+  </small></address>
+  <!--END !GENERATE_TREEVIEW-->
+  </body>
+  </html>
