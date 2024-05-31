@@ -6,5 +6,6 @@ var searchData=
   ['framecontainer_3',['FrameContainer',['../md_data_2gh-pages-assets_2pages_2introduction.html#autotoc_md13',1,'']]],
   ['framefactory_4',['FrameFactory',['../md_data_2gh-pages-assets_2pages_2introduction.html#autotoc_md11',1,'']]],
   ['framemetadata_5',['FrameMetadata',['../md_data_2gh-pages-assets_2pages_2introduction.html#autotoc_md10',1,'']]],
-  ['functions_6',['Functions',['../md_data_2gh-pages-assets_2pages_2CUDAKernelProgrammingGuide.html#autotoc_md32',1,'_ &lt;em&gt;device&lt;/em&gt; _ functions'],['../md_data_2gh-pages-assets_2pages_2introduction.html#autotoc_md15',1,'Module Functions']]]
+  ['functions_6',['Module Functions',['../md_data_2gh-pages-assets_2pages_2introduction.html#autotoc_md15',1,'']]],
+  ['functions_7',['_ &lt;em&gt;device&lt;/em&gt; _ functions',['../md_data_2gh-pages-assets_2pages_2CUDAKernelProgrammingGuide.html#autotoc_md32',1,'']]]
 ];

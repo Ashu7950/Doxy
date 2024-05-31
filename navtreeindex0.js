@@ -1,7 +1,7 @@
 var NAVTREEINDEX0 =
 {
-"index.html":[0],
 "index.html":[],
+"index.html":[0],
 "md_data_2gh-pages-assets_2pages_2CUDAKernelProgrammingGuide.html":[3],
 "md_data_2gh-pages-assets_2pages_2CUDAKernelProgrammingGuide.html#autotoc_md29":[3,0],
 "md_data_2gh-pages-assets_2pages_2CUDAKernelProgrammingGuide.html#autotoc_md30":[3,0,0],
